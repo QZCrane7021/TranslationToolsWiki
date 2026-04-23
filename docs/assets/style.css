@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "chinese";
+  src: url("fonts/HarmonyOSSans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "english";
+  src: url("fonts/Inter.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "code";
+  src: url("fonts/JetBrainsMono.ttf") format("truetype");
+}
+
+
+:root {
+  --md-text-font: "english","chinese";
+  --md-code-font: "code","chinese"; 
+  font-size: 20px;
+}
+
+[data-md-color-scheme="default"] :root {
+  --custom-code-bg-color: rgba(0, 0, 0, 0.04);
+}
+
+[data-md-color-scheme="slate"] :root {
+  --custom-code-bg-color: rgba(255, 255, 255, 0.05);
+}
+
+span.keys {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  padding-bottom: 0.05rem;
+
+}
+
+p > code {
+  margin-bottom: 1rem !important;
+}
+
+p {
+  vertical-align: middle;
+}
+
+kbd {
+  display: inline-flex;
+  align-items: center;
+}
+
+div.admonition {
+  background-color:transparent !important;
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-radius: 0 !important;
+  border-left-color: rgb(68, 138, 255);
+}
+
+div.admonition > p.admonition-title {
+  margin-top: 0.6rem;
+}
+
+div.admonition.note {
+  border-left-color: rgb(68, 138, 255);
+}
+
+div.admonition.abstract {
+  border-left-color: rgb(0, 176, 255);
+}
+
+div.admonition.info {
+  border-left-color: rgb(0, 184, 212);
+}
+
+div.admonition.tip {
+  border-left-color: rgb(0, 191, 165);
+}
+
+div.admonition.success {
+  border-left-color: rgb(0, 200, 83);
+}
+
+div.admonition.question {
+  border-left-color: rgb(100, 221, 23);
+}
+
+div.admonition.warning {
+  border-left-color: rgb(255, 145, 0);
+}
+
+div.admonition.failure {
+  border-left-color: rgb(255, 82, 82);
+}
+
+div.admonition.danger {
+  border-left-color: rgb(255, 23, 68);
+}
+
+div.admonition.bug {
+  border-left-color: rgb(245, 0, 87);
+}
+
+div.admonition.example {
+  border-left-color: rgb(124, 77, 255);
+}
+
+div.admonition.quote {
+  border-left-color: rgb(158, 158, 158);
+}
