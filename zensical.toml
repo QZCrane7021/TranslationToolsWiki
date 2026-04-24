@@ -18,7 +18,7 @@ nav = [
         "general/why-we-translate-videos.md",
         "general/general-workflow.md"
     ]},
-    {"翻译原则" = [
+    {"翻译的原则" = [
         "translation-principles/index.md",
         "translation-principles/streaming-media-translation.md",
         "translation-principles/about-using-ai.md",
