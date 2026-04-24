@@ -16,8 +16,11 @@ nav = [
     {"基本信息" = [
         "general/index.md",
         "general/why-we-translate-videos.md",
-        "general/principles-of-translation.md",
-        "general/appendix-translate-tone.md"
+    ]},
+    {"翻译原则" = [
+        "translation-principles/index.md",
+        "translation-principles/streaming-media-translation.md",
+        "translation-principles/appendix-translate-tone.md"
     ]}
 ]
 
