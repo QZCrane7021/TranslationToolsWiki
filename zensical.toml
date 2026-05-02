@@ -1,6 +1,6 @@
 [project]
-site_name = "Translation Tool Wiki"
-site_description = "A general wiki of tools related to Youtube video downloading and localization"
+site_name = "翻译工具百科"
+site_description = "本百科的作用是普及翻译思想及视频翻译工具的理解和使用"
 site_author = "QZCrane"
 
 site_url = "http://localhost:8000"
