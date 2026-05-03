@@ -24,6 +24,9 @@ nav = [
         "translation-principles/about-using-ai.md",
         "translation-principles/appendix-translate-tone.md",
         "translation-principles/appendix-westernised-chinese.md"
+    ]},
+    {"Aegisub" =[
+        "aegisub/index.md"
     ]}
 ]
 
