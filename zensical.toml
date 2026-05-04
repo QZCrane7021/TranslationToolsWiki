@@ -25,6 +25,15 @@ nav = [
         "translation-principles/appendix-translate-tone.md",
         "translation-principles/appendix-westernised-chinese.md"
     ]},
+    {"Github" = [
+        "github/index.md"
+    ]},
+    {"Watt Toolkit" = [
+        "watt-toolkit/index.md"
+    ]},
+    {"VPN" = [
+        "vpn/index.md"
+    ]},
     {"Aegisub" =[
         "aegisub/index.md"
     ]}
