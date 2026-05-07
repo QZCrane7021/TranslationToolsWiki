@@ -3,7 +3,13 @@ site_name = "翻译工具百科"
 site_description = "本百科的作用是普及翻译思想及视频翻译工具的理解和使用"
 site_author = "QZCrane"
 
-site_url = "http://localhost:8000"
+validation = false
+
+repo_url = "https://github.com/QZCrane7021/TranslationToolsWiki"
+repo_name = "TranslationToolsWiki"
+
+
+site_url = "http://qzcrane7021.github.io/TranslationToolsWiki"
 copyright = """
 CC BY-SA 4.0 2026 QZCrane
 """
@@ -34,8 +40,20 @@ nav = [
     {"VPN" = [
         "vpn/index.md"
     ]},
+    {"yt-dlp" = [
+        "yt-dlp/index.md"
+    ]},
+    {"VideoCaptioner" =[
+        "video-captioner/index.md"
+    ]},
     {"Aegisub" =[
         "aegisub/index.md"
+    ]},
+    {"Davinci Resolve" =[
+        "davinci-resolve/index.md"
+    ]},
+    {"上传视频" = [
+        "upload-video/index.md"
     ]}
 ]
 
@@ -64,9 +82,8 @@ targets.include = [
 ]
 
 [project.theme]
+favicon = "assets/favicon.png"
 language = "zh"
-font.text = "serif"
-font.code = "code"
 features = [
     "announce.dismiss",
     "content.code.annotate",
@@ -88,16 +105,32 @@ features = [
     "toc.follow",
 ]
 
+# Palette toggle for automatic mode
 [[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "切换到浅色模式"
+primary = "light blue"
+accent = "light blue"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
 scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "切换到深色模式"
 primary = "light blue"
 accent = "light blue"
 
+# Palette toggle for dark mode
 [[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 toggle.icon = "lucide/moon"
-toggle.name = "切换到浅色模式"
+toggle.name = "切换到系统适应"
 primary = "light blue"
 accent = "light blue"
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+logo = "lucide/languages"
