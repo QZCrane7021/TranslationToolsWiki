@@ -38,7 +38,8 @@ nav = [
         "watt-toolkit/index.md"
     ]},
     {"VPN" = [
-        "vpn/index.md"
+        "vpn/index.md",
+        "vpn/airport-and-clash.md"
     ]},
     {"yt-dlp" = [
         "yt-dlp/index.md"
