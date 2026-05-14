@@ -1,4 +1,4 @@
-# 流媒体的翻译
+# 流媒体翻译
 
 ## 流媒体翻译的困境 {#streaming-media-translation-difficulties}
 

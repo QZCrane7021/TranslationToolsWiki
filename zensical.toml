@@ -48,7 +48,8 @@ nav = [
         "video-captioner/index.md"
     ]},
     {"Aegisub" =[
-        "aegisub/index.md"
+        "aegisub/index.md",
+        "aegisub/download.md"
     ]},
     {"Davinci Resolve" =[
         "davinci-resolve/index.md"

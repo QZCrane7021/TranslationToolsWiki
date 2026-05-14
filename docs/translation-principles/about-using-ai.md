@@ -69,7 +69,7 @@ Grok 的回复
 
 ### 语序文法
 
-LLM 在训练时输入了大量语料，其中不乏一些所谓 [“翻译腔”][translate-tone] [“欧化中文”][westernised-chinese] 的语料，导致 LLM 输出的内容也往往不通顺。但人如果先看到 AI 预翻译的语料，可能无法第一时间发现问题并纠正。不过，即使译者选择全人工翻译，犯的问题也可能无法第一时间纠正，这时建议 [把文本先放一边，过一会儿再看][put-text-aside]。
+LLM 在训练时输入了大量语料，其中不乏带着所谓 [“翻译腔”][translate-tone] [“欧化中文”][westernised-chinese] 的语料，导致 LLM 输出的内容也往往不通顺。但人如果先看到 AI 预翻译的语料，可能无法第一时间发现问题并纠正。不过，即使译者选择全人工翻译，犯的问题也可能无法第一时间纠正，这时建议 [把文本先放一边，过一会儿再看][put-text-aside]。
 
 [put-text-aside]:./appendix-translate-tone.md#language-sense-first
 [translate-tone]:./appendix-translate-tone.md
