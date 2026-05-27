@@ -23,14 +23,27 @@
 }
 
 @font-face {
+  font-family: 'chinese-quote-fix';
+  src: url("fonts/HarmonyOS_Sans_SC_Regular.ttf") format("truetype");
+  unicode-range: U+201C, U+201D, U+300C, U+300D, U+300E, U+300F, U+2018, U+2019;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'chinese-quote-fix';
+  src: url("fonts/HarmonyOS_SansSC_Bold.ttf") format("truetype");
+  unicode-range: U+201C, U+201D, U+300C, U+300D, U+300E, U+300F, U+2018, U+2019;
+  font-weight: 700;
+}
+
+@font-face {
   font-family: "code";
   src: url("fonts/JetBrainsMono.ttf") format("truetype");
 }
 
-
 :root {
-  --md-text-font: "english","chinese";
-  --md-code-font: "code","english","chinese"; 
+  --md-text-font: "chinese-quote-fix","english","chinese";
+  --md-code-font: "chinese-quote-fix","code","english","chinese"; 
   font-size: 20px;
 }
 

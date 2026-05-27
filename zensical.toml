@@ -49,7 +49,7 @@ nav = [
     ]},
     {"Aegisub" =[
         "aegisub/index.md",
-        "aegisub/download.md"
+        "aegisub/quick-start.md"
     ]},
     {"Davinci Resolve" =[
         "davinci-resolve/index.md"
