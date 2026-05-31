@@ -59,16 +59,11 @@ span.keys {
   display: inline-flex;
   align-items: center;
   vertical-align: middle;
-  padding-bottom: 0.05rem;
-
+  padding-bottom: 0.15rem;
 }
 
-p > code {
-  margin-bottom: 1rem !important;
-}
-
-p {
-  vertical-align: middle;
+span.keys > kbd::before {
+  font-family: monospace !important;
 }
 
 kbd {
@@ -142,4 +137,95 @@ div.admonition.example {
 
 div.admonition.quote {
   border-left-color: rgb(158, 158, 158);
+}
+
+details {
+  background-color:transparent !important;
+  font-size: 0.75rem !important;
+  border-left-width: 0.6rem;
+  border-left-style: solid;
+  border-radius: 0 !important;
+  border-left-color: rgb(68, 138, 255);
+}
+
+details > summary {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+details > summary::before {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  top: 0.02rem !important;
+}
+
+details > summary::after {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  top: 0.02rem !important;
+}
+
+details.note {
+  border-left-color: rgb(68, 138, 255);
+}
+
+details.abstract {
+  border-left-color: rgb(0, 176, 255);
+}
+
+details.info {
+  border-left-color: rgb(0, 184, 212);
+}
+
+details.tip {
+  border-left-color: rgb(0, 191, 165);
+}
+
+details.success {
+  border-left-color: rgb(0, 200, 83);
+}
+
+details.question {
+  border-left-color: rgb(100, 221, 23);
+}
+
+details.warning {
+  border-left-color: rgb(255, 145, 0);
+}
+
+details.failure {
+  border-left-color: rgb(255, 82, 82);
+}
+
+details.danger {
+  border-left-color: rgb(255, 23, 68);
+}
+
+details.bug {
+  border-left-color: rgb(245, 0, 87);
+}
+
+details.example {
+  border-left-color: rgb(124, 77, 255);
+}
+
+details.quote {
+  border-left-color: rgb(158, 158, 158);
+}
+
+/* code元素与中文文本竖直对齐 */
+code {
+  vertical-align: baseline;
+  display: inline;
+}
+
+/* inline code 的对齐优化 */
+p code, h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+  vertical-align: 0.125em;
+  font-size: 0.9em;
+}
+
+/* 表格中的code对齐 */
+td code, th code {
+  vertical-align: baseline;
 }

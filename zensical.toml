@@ -3,8 +3,6 @@ site_name = "翻译工具百科"
 site_description = "本百科的作用是普及翻译思想及视频翻译工具的理解和使用"
 site_author = "QZCrane"
 
-validation = false
-
 repo_url = "https://github.com/QZCrane7021/TranslationToolsWiki"
 repo_name = "TranslationToolsWiki"
 
@@ -32,17 +30,17 @@ nav = [
         "translation-principles/appendix-westernised-chinese.md"
     ]},
     {"Github" = [
-        "github/index.md"
-    ]},
-    {"Watt Toolkit" = [
-        "watt-toolkit/index.md"
+        "github/index.md",
+        "github/visit.md",
+        "github/register.md"
     ]},
     {"VPN" = [
         "vpn/index.md",
         "vpn/airport-and-clash.md"
     ]},
     {"yt-dlp" = [
-        "yt-dlp/index.md"
+        "yt-dlp/index.md",
+        "yt-dlp/install.md"
     ]},
     {"VideoCaptioner" =[
         "video-captioner/index.md"
