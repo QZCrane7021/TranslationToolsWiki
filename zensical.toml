@@ -27,7 +27,8 @@ nav = [
         "translation-principles/streaming-media-translation.md",
         "translation-principles/about-using-ai.md",
         "translation-principles/appendix-translate-tone.md",
-        "translation-principles/appendix-westernised-chinese.md"
+        "translation-principles/appendix-westernised-chinese.md",
+        "translation-principles/self-experience.md"
     ]},
     {"Github" = [
         "github/index.md",
