@@ -27,34 +27,50 @@ nav = [
         "translation-principles/streaming-media-translation.md",
         "translation-principles/about-using-ai.md",
         "translation-principles/appendix-translate-tone.md",
-        "translation-principles/appendix-westernised-chinese.md",
-        "translation-principles/self-experience.md"
+        "translation-principles/appendix-westernised-chinese.md"
     ]},
-    {"Github" = [
-        "github/index.md",
-        "github/visit.md",
-        "github/register.md"
+    {"前期工作" = [
+        "starting/index.md",
+        {"Github" = [
+            "starting/github/index.md","starting/github/visit.md",
+            "starting/github/register.md"
+        ]},
+        {"VPN" = [
+            "starting/vpn/index.md",
+            "starting/vpn/airport-and-clash.md"
+        ]}
     ]},
-    {"VPN" = [
-        "vpn/index.md",
-        "vpn/airport-and-clash.md"
+    {"视频下载" = [
+        "video-download/index.md",
+        {"yt-dlp" = [
+            "video-download/yt-dlp/index.md",
+            "video-download/yt-dlp/install.md"
+        ]}
     ]},
-    {"yt-dlp" = [
-        "yt-dlp/index.md",
-        "yt-dlp/install.md"
+    {"字幕识别" =[
+        "video-transcribe/index.md",
+        {"VideoCaptioner" = [
+            "video-transcribe/videocaptioner/index.md",
+            "video-transcribe/videocaptioner/install.md",
+            "video-transcribe/videocaptioner/usage.md",
+        ]}
     ]},
-    {"VideoCaptioner" =[
-        "video-captioner/index.md"
+    {"字幕打轴" = [
+        "subtitle-timing/index.md",
+        {"Aegisub" = [
+            "subtitle-timing/aegisub/index.md",
+            "subtitle-timing/aegisub/build.md",
+            "subtitle-timing/aegisub/quick-start.md"
+        ]}
     ]},
-    {"Aegisub" =[
-        "aegisub/index.md",
-        "aegisub/quick-start.md"
+    {"字幕烧录" =[
+        "subtitle-hardcode/index.md",
+        {"Davinci Resolve" =[
+            "subtitle-hardcode/davinci-resolve/index.md"
+        ]},
     ]},
-    {"Davinci Resolve" =[
-        "davinci-resolve/index.md"
-    ]},
-    {"上传视频" = [
-        "upload-video/index.md"
+    {"视频上传" = [
+        "video-upload/index.md"
     ]}
 ]
 

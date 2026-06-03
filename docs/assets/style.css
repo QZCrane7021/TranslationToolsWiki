@@ -221,7 +221,7 @@ code {
 
 /* inline code 的对齐优化 */
 p code, h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
-  vertical-align: 0.125em;
+  vertical-align: 0.075em;
   font-size: 0.9em;
 }
 
