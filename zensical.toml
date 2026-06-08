@@ -44,7 +44,8 @@ nav = [
         "video-download/index.md",
         {"yt-dlp" = [
             "video-download/yt-dlp/index.md",
-            "video-download/yt-dlp/install.md"
+            "video-download/yt-dlp/install.md",
+            "video-download/yt-dlp/usage.md"
         ]}
     ]},
     {"字幕识别" =[
@@ -67,6 +68,9 @@ nav = [
         "subtitle-hardcode/index.md",
         {"Davinci Resolve" =[
             "subtitle-hardcode/davinci-resolve/index.md"
+        ]},
+        {"Ffmpeg 烧录" =[
+            "subtitle-hardcode/ffmpeg/index.md"
         ]},
     ]},
     {"视频上传" = [
